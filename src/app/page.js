@@ -1,10 +1,32 @@
-import Image from 'next/image'
-
+"use client"
+import Image from 'next/image';
+import { useState } from "react";
+import { useRouter } from 'next/navigation';
 export default function Home() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const router = useRouter();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    router.push(`/search?term=${searchTerm}`);
+    setSearchTerm('');
+  };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <form id="search" onSubmit={handleSearch} className="flex">
+        <input
+          type="text"
+          placeholder="Search for content"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="border font-mono font-bold border-gray-300 rounded-l px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-64"
+        />
+        <button type="submit"
+        className="bg-blue-500 hover:bg-blue-600 text-white font-mono font-bold py-2 px-4 rounded-r focus:outline-none focus:ring-2 focus:ring-lightblue-500"
+        >Search</button>
+      </form>
+        <p className="fixed left-0 top-0 flex w-full justify-start border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.js</code>
         </p>

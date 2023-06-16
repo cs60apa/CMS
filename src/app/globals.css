@@ -2,4 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
+main {
+    background-color: #232529;
+    font-size:18px;
+    color: #e2e3e7;
+    height: fit-content;
+    width:100%;
+}
+.title{
+    display: block;
+    font-size: 30px;
+}
 
+header {
+    text-align: center;
+    font:bold;
+    font-size: large;
+    margin-left: 10px;
+    border-top: #e2e3e7;
+    border-left: 0px;
+    border-width: 1px;
+    border-bottom-style: dashed;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232529;
+  }
+  header, p {
+    font: bold;
+    font-size: 40px;
+    display: flex;
+    margin-top: 10px;
+    align-items:center;
+  }
+  lord-icon {
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+  .search {
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, #0561ee, #18e0b5);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .search :is(input, button) {
+    
+    font-size: 14px;
+    font: bold;
+    background: transparent;
+    color: inherit;
+    border: none;
+    outline: none;
+  }

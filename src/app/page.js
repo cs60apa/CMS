@@ -1,37 +1,13 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import user from './images/user.png';
-import logo from './images/logo.png';
-import maybe from './images/maybe.jpg';
-import home from './images/home.png';
+import maybe from './assets/maybe.jpg';
+import Header from './components/Header.jsx';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
-      <div className="relative border-b-4 border-slate-700 mb-10 z-1 ">
-        <div className="flex-start">
-        <p>
-          <Image src={logo} width={250} height={180} alt="logo"
-          />
-        </p>
-        </div>
-        <div className="grid grid-cols-4 gap-4 ml-10 mt-5 absolute top-3 right-0 flex justify-end stroke-cyan-500 hover:stroke-cyan-700">
-            <div>
-            <Link href="/">
-              <Image src={home} width={20} height={20} alt="Home"
-              />
-            </Link>
-            </div>
-            <div>
-            <Link href="/profile">
-              <Image src={user} width={20} height={20} alt="User"/>
-            </Link>
-            </div>
-        </div>
-      </div>
+      <Header></Header>
       <div className="grid grid-cols-2 gap-1 justify-center ml-20">
       <div className="grid grid-rows-3 gap-2 justify-start ml-20 mt-10 mb-10 h-40">
-        <h1 className="text-3xl font-bold">Content Management Hub</h1>
         <p className="font-sans text-2xl pb-20">How it's done now. From the basics to advanced topics with simple, but detailed explanations.</p>
         <form className="search mt-20 w-96 py-10">
 			    <input type="search" name="query" placeholder="Search" class="search__input" />

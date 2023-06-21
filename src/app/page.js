@@ -1,33 +1,64 @@
-"use client"
 import Image from 'next/image';
-import { useState } from "react";
-import { useRouter } from 'next/navigation';
-export default function Home() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const router = useRouter();
+import maybe from './assets/maybe.jpg';
+import Header from './components/Header.jsx';
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    router.push(`/search?term=${searchTerm}`);
-    setSearchTerm('');
-  };
+export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-      <form id="search" onSubmit={handleSearch} className="flex">
-        <input
-          type="text"
-          placeholder="Search for content"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="border font-mono font-bold border-gray-300 rounded-l px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-64"
-        />
-        <button type="submit"
-        className="bg-blue-500 hover:bg-blue-600 text-white font-mono font-bold py-2 px-4 rounded-r focus:outline-none focus:ring-2 focus:ring-lightblue-500"
-        >Search</button>
-      </form>
-        
+    <main className="flex min-h-screen flex-col">
+      <Header></Header>
+      <div className="grid grid-cols-2 gap-1 justify-center ml-20">
+      <div className="grid grid-rows-3 gap-2 justify-start ml-20 mt-10 mb-10 h-40">
+        <p className="font-sans text-2xl pb-20">How it's done now. From the basics to advanced topics with simple, but detailed explanations.</p>
+        <form className="search mt-20 w-96 py-10">
+			    <input type="search" name="query" placeholder="Search" class="search__input" />
+			    <button type="submit" name="type" value="article" class="search__button">
+				  <i class="ri-search-2-line"></i>
+			    </button>
+		    </form>
       </div>
+      <div className="flex justify-end mr-40 mt-5">
+        <div className="shadow-2xl mr-20shadow-blue-500/50">
+        <Image src={maybe} width={600} height={500} alt="4"
+              />
+        </div>
+      </div>
+    </div>
+    <div className=" flex ml-40 mt-10 content-evenly">
+      <h2 className="text-3xl font-bold mb-5">Table of Contents</h2>
+    </div>
+    <div>
+      <p className="font-sans text-xl ml-40 mr-40">Main course contains 2 parts which cover JavaScript as a programming language and working with a browser. There are also additional series of thematic articles.</p>
+    </div>
+    <div className="block">
+      <div className="block outline-0">
+        <div className="inline-block ml-40 mt-10">
+          <nav className="sticky top-0 z-1 border-b-2 border-slate-700 hover:border-[#e3796a] ">
+            <div className="relative overflow-x-hidden box-border">
+              <div className="contents flex-nowrap overflow-x-auto">
+                <button>
+                <a className="active flex-1 hover:text-[#e3796a]">
+                  <h1 className="inline-block">PART 1 </h1>
+                  <h2>The Javascript Language</h2>
+                </a>
+                </button>
+                <button>
+                  <a className="active flex-1 space-x-60 hover:text-[#e3796a]">
+                  <h1 className="inline-block ml-20">PART 2 </h1>
+                  <h2>Browser: Document, Events, Interfaces</h2>
+                  </a>
+                </button>
+                <button>
+                  <a className="active flex-1 space-x-60 hover:text-[#e3796a]">
+                  <h1 className="inline-block ml-40">PART 3</h1>
+                  <h2>Additional articles</h2>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>   
     </main>
   )
 }

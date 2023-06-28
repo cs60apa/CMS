@@ -6,31 +6,30 @@ import {CiLight, CiDark, CiSearch} from "react-icons/Ci";
 import {IoIosPersonAdd} from 'react-icons/Io';
 import { useTheme } from "next-themes";
 
-
 export default function Header() {
     const { theme, setTheme } = useTheme();
   return (
     <div className="relative border-b-4 border-slate-700 mb-10 z-1 ">
-        <div className="flex-start ml-2">
+        <div className="flex-start md:ml-2">
         <p>
-          <img src="https://devcircleafrica.com/wp-content/uploads/2022/07/cropped-logo-color.png" width={250} height={180} alt="logo"
+          <img src="https://devcircleafrica.com/wp-content/uploads/2022/07/cropped-logo-color.png" width={200} height={150} alt="logo"
           />
         </p>
         </div>
-        <div className="grid grid-cols-4 gap-4 mt-3 mr-5 absolute top-3 right-0 flex justify-end">
-            <div className="mr-2">
+        <div className="grid grid-cols-3 gap-3 mt-3 ml-5 lg:mr-5 md:mr-3 absolute top-3 right-0 flex justify-end">
+            <div className="md:mr-2">
             <Link href="/">
-              <IoIosPersonAdd size={27}/>
+              <IoIosPerson size={20}/>
             </Link>
             </div>
             <div>
-            <button className="mr-2" onClick={()=> setTheme( theme === "dark"? "light": "dark" )}>
-                { theme === "dark" ? <CiLight size={27}/>: <CiDark size={27}/> }
+            <button className="md:mr-2" onClick={()=> setTheme( theme === "dark"? "light": "dark" )} >
+                { theme === "dark" ? <CiLight size={20}/>: <CiDark size={20}/> }
             </button>
             </div>
             <div>
             <Link href="/">
-              <CiSearch size={27}/>
+              <CiSearch size={20}/>
             </Link>
             </div>
         </div>

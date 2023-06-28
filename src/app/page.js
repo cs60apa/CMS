@@ -92,7 +92,7 @@ export default function Home() {
                   <ul className="md:grid md:grid-cols-2 md:gap-2 pt-5 list-none lg:text-xl">
                     <div className="md:grid md:grid-rows-2 md:gap-2">
                     <li>
-                      <div className="md:justify-start">1.1
+                      <div className="md:justify-start" >1.1
                       <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">An introduction to Javascript</a>
                       </div>
                     </li>
@@ -213,6 +213,445 @@ export default function Home() {
                     </li>
                     </ul>
                 </div>
+                <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Code quality</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-2 md:grid-cols-2 md:gap-2 lg:grid-rows-2 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>3.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Debugging in the browser</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>3.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Coding style</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>3.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Comments</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>3.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Ninja code</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>3.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Automated testing with Mocha</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>3.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Polyfills and transpillers</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Objects: the basics</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-3 md:grid-cols-2 md:gap-2 lg:grid-rows-3 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>4.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Objects</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Object references and copying</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Garbage collection</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Object methods, "this"</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Constructor, operator "new"</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Optional chaining '?'.</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.7
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Symbol type</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>4.8
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Object to primitive conversion</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Data types</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-6 md:grid-cols-2 md:gap-2 lg:grid-rows-4 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>5.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Methods of primitives</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Numbers</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Strings</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Arrays</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Array methods</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Iterables</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.7
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Map and Set</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.8
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">WeakMap and WeakSet</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.9
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Object.keys, values, entries</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.10
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Destructuring assignment</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.11
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Date and time</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>5.12
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">JSON methods, toJSON</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Advanced working with functions</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-6 md:grid-cols-2 md:gap-2 lg:grid-rows-5 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>6.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Recursion and Stack</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Rest parameters and spread syntax</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Variable scope, closure</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">The old "var"</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Global object</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Function object, NFE</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.7
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">The "new Function" syntax</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.8
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Scheduling: setTimeout and setInterval</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.9
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Decorators and forwarding, call/apply</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.10
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Function binding</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>6.11
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Arrow functions revisited</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Object properties configuration</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-1 md:grid-cols-2 md:gap-2 lg:grid-rows-1 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>7.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Property flags and descriptors</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>7.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Property getters and setters</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Prototypes, inheritance</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-2 md:grid-cols-2 md:gap-2 lg:grid-rows-2 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>8.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Prototypal inheritance</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>8.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">F.prototype</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>8.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Native prototypes</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>8.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Prototype methods, objects without __proto__</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Classes</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-4 md:grid-cols-2 md:gap-2 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>9.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Class basic syntax</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Class inheritance</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Static properties and methods</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Private and protected properties and methods</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Extending built-in classes</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Class checking: "instanceof"</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>9.7
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Mixins</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Error handling</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-1 md:grid-cols-2 md:gap-2 lg:grid-rows-1 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>10.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Error handling, "try...catch"</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>10.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Custom errors, extending Error</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Promises: async/await</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-4 md:grid-cols-2 md:gap-2 lg:grid-rows-3 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>11.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Introduction: callbacks</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Promise</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Promises chaining</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Error handling with promises</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Promise API</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Promisification</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.7
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Microtasks</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>11.8
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Async/await</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Generators, advanced iteration</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-1 md:grid-cols-2 md:gap-2 lg:grid-rows-1 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>12.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Generators</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>12.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Async iteration, and generators</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Modules</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-2 md:grid-cols-2 md:gap-2 lg:grid-rows-1 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>13.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Modules, introduction</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>13.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Export and Import</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>13.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Dynamic imports</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
+                  <div>
+                  <div className="block relative md:pt-10 pt-5 font-bold font-sans text-xl lg:text-2xl hover:text-[#e3796a]">
+                    <a href="" className="hover:border-b hover:border-[#e3796a]">Miscellaneous</a>
+                  </div>
+                  <ul className="md:inline-flex md:grid md:grid-rows-3 md:grid-cols-2 md:gap-2 lg:grid-rows-2 lg:grid-flow-col lg:gap-auto pt-5 list-none lg:text-xl">
+                    <li>
+                      <div>14.1
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Proxy and Reflect</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>14.2
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Eval: run a code string</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>14.3
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Currying</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>14.4
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Reference Type</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>14.5
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">BigInt</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div>14.6
+                      <a href="" className="text-[#84a0ef] hover:text-[#e3796a] ml-5 hover:border-b hover:border-[#e3796a]">Unicode, string internals</a>
+                      </div>
+                    </li>
+                    </ul>
+                  </div>
               </div>
             </section>
           </div>

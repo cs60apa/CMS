@@ -5,9 +5,11 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'CMS Hub',
-  description: 'Developed to be used for content management system at DevCircle Africa',
-}
+  title: "Docs",
+  description: "at Docs, we are building the next generation of African developers",
+  keywords: "Programming, content writing, Designing, Learning, Hacks, Tech, Africa, Docs, Otofast Africa, Project, Africa Fast,"
+   
+};
 
 export default function RootLayout({ children }) {
   return (

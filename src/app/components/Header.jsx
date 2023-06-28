@@ -2,7 +2,8 @@
 import React from 'react'
 import Link from 'next/link'
 import {CiLight, CiDark, CiSearch} from "react-icons/Ci";
-import {IoIosPerson} from 'react-icons/Io';
+// import {IoIosPerson} from 'react-icons/Io';
+import {IoIosPersonAdd} from 'react-icons/Io';
 import { useTheme } from "next-themes";
 
 
@@ -19,7 +20,7 @@ export default function Header() {
         <div className="grid grid-cols-4 gap-4 mt-3 mr-5 absolute top-3 right-0 flex justify-end">
             <div className="mr-2">
             <Link href="/">
-              <IoIosPerson size={27}/>
+              <IoIosPersonAdd size={27}/>
             </Link>
             </div>
             <div>

@@ -1,8 +1,12 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { CiLight, CiDark, CiSearch } from "react-icons/Ci";
+
+
 import { IoIosPerson } from "react-icons/Io";
+import { CiSearch } from "react-icons/Ci";
+import { CiLight } from "react-icons/Ci";
+import { CiDark } from "react-icons/Ci";
 import { useTheme } from "next-themes";
 
 export default function Header() {

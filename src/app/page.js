@@ -1,9 +1,14 @@
 "use client";
-import Header from "./components/Header.jsx";
-import { HiOutlineBookOpen } from "react-icons/Hi";
-import { CiTwitter } from "react-icons/Ci";
-import { RxDiscordLogo } from "react-icons/Rx";
+
+
+
+
+
 import { useRef } from "react";
+import BiSolidBookBookmark from "@meronex/icons/bi/BiSolidBookBookmark";
+import AiOutlineTwitter from "@meronex/icons/ai/AiOutlineTwitter";
+import BsDiscord from "@meronex/icons/bs/BsDiscord";
+
 
 export default function Home() {
   const section1Ref = useRef(null);
@@ -47,7 +52,7 @@ export default function Home() {
               className="flex flex-row box-border md:box-content bg-[#292c31] hover:bg-zinc-700 py-2 px-1 md:px-2 mr-2 rounded justify-center align-center text-[#e3796a]"
               href=""
             >
-              <HiOutlineBookOpen size={25} />
+              <BiSolidBookBookmark size={25} />
               <span className="mx-1 text-xs lg:text-lg">Buy EPUB/PDF</span>
             </a>
             <a
@@ -55,7 +60,7 @@ export default function Home() {
               href=""
             >
               <span className="mr-2 text-xs lg:text-lg">Share:</span>
-              <CiTwitter size={25} />
+              <AiOutlineTwitter size={25} />
             </a>
           </div>
           <div className="grid grid-cols-2 mr-2 ml-4 lg:ml-20 lg:mr-20">
@@ -69,7 +74,7 @@ export default function Home() {
               className="flex flex-row box-border md:box-content bg-[#292c31] hover:bg-zinc-700 py-2 px-1 md:ml-1 md:px-10 mt-2 rounded justify-center align-center text-[#e3796a]"
               href=""
             >
-              <RxDiscordLogo size={25} />
+              <BsDiscord size={25} />
               <span className="ml-2 md:ml-2 text-xs lg:text-lg">
                 Discord Chat{" "}
               </span>
